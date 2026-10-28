@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Zahara Morris – Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Caveat:wght@600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+<canvas id="sp" aria-hidden="true"></canvas>
+ 
+<nav>
+  <span class="logo">Zahara Morris</span>
+  <div><a class="pill p" href="mailto:zaharam07@yahoo.com">Email me!</a></div>
+</nav>
+<div class="dots" id="dots" role="tablist" aria-label="Sections"></div>
+<div id="intro" aria-hidden="true"><div id="introRow"></div></div>
+ 
+<main>
+  <section class="scene hero" aria-label="Intro">
+    <div class="wrap">
+      <h1 class="name" id="name" aria-label="Zahara Morris">
+        <span class="layer base" aria-hidden="true"><span class="ln" style="--d:.1s"><b>ZAHARA</b></span><span class="ln" style="--d:.3s"><b>MORRIS</b></span></span>
+        <span class="layer lit" aria-hidden="true"><span class="ln" style="--d:.1s"><b>ZAHARA</b></span><span class="ln" style="--d:.3s"><b>MORRIS</b></span></span>
+      </h1>
+      <div class="sub sw" style="--d:.8s">Computer Science Undergrad · Pittsburgh, PA<span class="note">hi! scroll to fall in!</span></div>
+    </div>
+  </section>
+ 
+  <section class="scene" aria-label="About">
+    <div class="wrap">
+      <p class="say sw">Hi!! I’m Zahara Morris, a Computer Science student at the University of Pittsburgh interested in <mark>full-stack web development, secure application architecture, and machine learning</mark>. My tech journey started in high school with a 4-year cybersecurity pathway and 3 years of tech-focused internship experience, which culminated in my <mark>Honors Career Tech Diploma</mark>. Today, I’m using that extensive background to pursue my CS degree, sharpening my skills and using web development to bring my projects to life!</p>
+      <div class="facts sw" style="--d:.2s"><div><span>doing</span>cs @ pitt</div><div><span>into</span>fintech, web dev, &amp; cyber</div><div><span>open</span>to new roles</div></div>
+    </div>
+  </section>
+ 
+  <section class="scene" aria-label="Work">
+    <div class="wrap">
+      <h2 class="sw">Selected <span class="u">Projects<svg viewBox="0 0 200 12" preserveAspectRatio="none" aria-hidden="true"><path d="M2 8 C 30 2, 60 11, 100 5 S 170 9, 198 3" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg></span></h2>
+      <div class="sw nt" style="--d:.2s"><span class="note">check out my github!</span></div>
+      <div class="grid" id="projects"></div>
+    </div>
+  </section>
+ 
+  <section class="scene" aria-label="Education, Experience, and Skills">
+    <div class="wrap eng">
+      <h2 class="sw">My <span class="u">Engineer<svg viewBox="0 0 200 12" preserveAspectRatio="none" aria-hidden="true"><path d="M2 8 C 30 2, 60 11, 100 5 S 170 9, 198 3" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg></span> Side</h2>
+      <div class="cols">
+        <div class="sw">
+          <h3>Education</h3>
+          <div class="item"><span class="yr">2025 – 2028</span><b>University of Pittsburgh</b><span class="desc">B.S. in Computer Science | Minors: Economics, Sociology.</span>
+            <ul class="tags"><li>Computer Programming</li><li>Intermediate Programming</li><li>Algorithms &amp; Data Structures</li></ul></div>
+          <h3>Experience</h3>
+          <div class="item"><span class="yr">2022 – 2026</span><b>Fed Futures Intern • Federal Reserve Bank of Cleveland</b><span class="desc">Completed specialized cybersecurity training while developing projects in RStudio.</span>
+            <ul class="tags"><li>RStudio</li></ul></div>
+        </div>
+        <div class="sw" style="--d:.2s">
+          <h3>Skills</h3>
+          <div class="item"><span class="yr">Languages</span><ul class="tags"><li>Python</li><li>Java</li><li>JavaScript</li><li>HTML</li><li>CSS</li><li>RStudio</li><li>Pine Script</li></ul></div>
+          <div class="item"><span class="yr">Frameworks &amp; Tools</span><ul class="tags"><li>Git/GitHub</li><li>Kali Linux</li><li>Figma</li><li>Milanote</li><li>Agile/Scrum</li></ul></div>
+          <div class="m-hide"><h3>Recognition</h3>
+          <div class="item"><span class="yr">2026</span><b>WiCyS CTF (Solo Division)</b><span class="desc">Achieved 2nd place out of 30 competitors in the Women in Cybersecurity (WiCyS) CTF competition.</span></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <section class="scene" aria-label="Creative">
+    <div class="wrap">
+      <h2 class="sw">My <span class="u">Personal<svg viewBox="0 0 200 12" preserveAspectRatio="none" aria-hidden="true"><path d="M2 8 C 30 2, 60 11, 100 5 S 170 9, 198 3" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg></span> Side</h2>
+      <p class="lead sw" style="--d:.15s">Things I enjoy when I’m not coding.</p>
+      <div class="sw fwrap" style="--d:.3s">
+        <div class="fgrid" id="fgrid"></div>
+        <span class="note fnote">explore the things I love!</span>
+      </div>
+    </div>
+  </section>
+ 
+  <section class="scene hello" aria-label="Contact">
+    <div class="wrap">
+      <div class="sw bigwrap"><a class="big" href="mailto:zaharam07@yahoo.com">Reach Out!</a></div>
+      <p class="sw" style="--d:.15s">I’m open to new roles and projects. Email is the fastest way to reach me.</p>
+      <div class="row sw" style="--d:.3s"><a class="pill p" href="mailto:zaharam07@yahoo.com">zaharam07@yahoo.com</a><a class="pill" href="https://www.linkedin.com/in/zahara-morris-781357265/" target="_blank">LinkedIn</a><a class="pill" href="https://github.com/zahararm" target="_blank">GitHub</a></div>
+      <div class="copy">© 2026 Zahara Morris · keep scrolling in!<br>This site uses ntfy!</div>
+    </div>
+  </section>
+</main>
+ 
+<div class="fd" id="fd" role="dialog" aria-modal="true" aria-label="Creative folder">
+  <div class="fdwin">
+    <div class="fdbar"><span id="fdtitle">creative/</span><span class="fdc" id="fdcount"></span><button id="fdClose" aria-label="Close folder">×</button></div>
+    <div class="mix" id="mix"></div>
+    <div class="fdnote">explore!</div>
+  </div>
+</div>
+<div id="lb" role="dialog" aria-modal="true" aria-label="Gallery">
+  <button class="lbb" id="lbClose" aria-label="Close">×</button>
+  <button class="lbb" id="lbPrev" aria-label="Previous">‹</button>
+  <figure id="lbFig"></figure>
+  <button class="lbb" id="lbNext" aria-label="Next">›</button>
+  <div id="lbCap"></div>
+</div>
+<div class="music"><div class="mpanel" id="mpanel" aria-hidden="true"><div id="mbox"></div></div><button class="pill" id="mtab" aria-expanded="false">♪ Music</button></div>
+ 
+<script src="script.js"></script>
+</body>
+</html>
+ 
